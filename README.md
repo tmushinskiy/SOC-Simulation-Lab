@@ -19,6 +19,6 @@ The SOC Simulation Lab project is designed to create a realistic Security Operat
 - Wireshark (network traffic capture and analysis)  
 - Suricata and Zeek (network intrusion detection and monitoring)  
 - Sysmon and Windows Event Viewer (endpoint logging)  
-- VirtualBox/VMware Player (virtual lab environment)  
+- VirtualBox (virtual lab environment)  
 
 ## Steps
