@@ -1,1 +1,64 @@
+# === General OS/System Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
 
+# === Python/Temp Files ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+*.bak
+*.swp
+
+# === Log and Output Files ===
+*.log
+*.out
+*.err
+
+# === VirtualBox and VM Files ===
+*.vbox
+*.vbox-prev
+*.vdi
+*.vmdk
+*.iso
+*.ova
+*.ovf
+*.vmem
+*.vmsd
+*.vmx
+*.nvram
+*.lck/
+
+# === Packet Captures / Large Binary Files ===
+*.pcap
+*.pcapng
+*.evtx
+*.zip
+
+# === IDE and Editor Files ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === Git Files ===
+*.orig
+
+# === Reports and Binary Office Docs (optional) ===
+*.docx
+*.xlsx
+*.pdf
+
+# === Environment Files ===
+.env
+*.env
+.env.*
+
+# === Security Onion Specific (optional, if you're snapshotting) ===
+so-*
+
+# === Misc ===
+*.tgz
+*.tar.gz
