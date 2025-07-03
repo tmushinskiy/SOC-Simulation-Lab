@@ -1,0 +1,38 @@
+# Normalize all text files to use LF in the repo, native on checkout
+* text=auto
+
+# Explicit line endings for script types
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Treat Markdown, config, and plaintext logs as text
+*.md text
+*.txt text
+*.conf text
+*.yaml text
+*.yml text
+*.json text
+*.log text
+
+# Prevent Git from trying to diff binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.pcap binary
+*.iso binary
+*.vmdk binary
+*.ova binary
+*.evtx binary
+
+#Treat output files as binary
+*.xlsx binary
+*.docx binary
+*.pdf binary
+
+# Enable Git LFS for large files (only if using Git LFS later)
+#*.pcap filter=lfs diff=lfs merge=lfs -text
+#*.evtx filter=lfs diff=lfs merge=lfs -text
